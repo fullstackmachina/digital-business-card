@@ -9,12 +9,20 @@
   <body>
     <main>
       <article class="card">
-        <header>
+        <header class="card-head">
           <div class="top-left">
-            <img src="./assets/profile.png" alt="Profile photo" />
-            <img src="./assets/logo.png" alt="Logo photo" />
-            <h1>Jane Smith</h1>
-            <p>FLORAL DESIGNER</p>
+            <div class="top-left-images">
+              <img
+                src="./assets/profile.png"
+                class="image-profile"
+                alt="Profile photo"
+              />
+              <img src="./assets/logo.png" class="logo" alt="Logo photo" />
+            </div>
+            <div class="top-left-text">
+              <h1>Jane Smith</h1>
+              <p>FLORAL DESIGNER</p>
+            </div>
           </div>
 
           <div class="top-right">
@@ -51,7 +59,9 @@
             </p>
           </article>
         </section>
-        <img src="./assets/flip-icon.svg" alt="Return the card" />
+        <div class="flip-button">
+          <img src="./assets/flip-icon.svg" alt="Return the card" />
+        </div>
       </article>
     </main>
     <script src="script.js"></script>
